@@ -1,6 +1,8 @@
 
 -- A Bookstore database system
 
+
+CREATE DATABASE alx_book_store;
 -- The Authors table
 CREATE TABLE Authors(
     author_id INT PRIMARY KEY, -- This is the primary key
