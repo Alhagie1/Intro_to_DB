@@ -22,10 +22,9 @@ def create_database():
 
         cursor = db_connection.cursor()
 
-        db_name = "alx_book_store"
-        sql_query = f"CREATE DATABASE IF NOT EXISTS {db_name};"
+        sql_query = f"CREATE DATABASE IF NOT EXISTS alx_book_store;"
         cursor.execute(sql_query)
-        print(f"Database '{db_name}' created successfully!")
+        print(f"Database alx_book_store created successfully!")
 
     except mysql.connector.Error as err:
         print(f"Error: {err}")
